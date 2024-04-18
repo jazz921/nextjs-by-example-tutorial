@@ -24,7 +24,7 @@ export default function RootLayout({ children }: LayoutProps) {
                 </header>
                 <main className="py-3 grow">{children}</main>
                 <footer className="border-t py-3 text-center text-xs">
-                    Game data and images coutesy of RAWG
+                    Game data and images coutesy of RAWG | Deployed on Vercel
                 </footer>
             </body>
         </html>
